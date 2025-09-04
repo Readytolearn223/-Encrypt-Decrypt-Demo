@@ -17,9 +17,10 @@ Encrypts and decrypts a short message using asymmetric encryption
 Symmetric encryption will first  generate a 16-byte symmetric key. Next, it will take an input message and encrypt it. Then it decrypts the ciphertext using the same symmetric key. Lastly, it will show the key that was used, the input message, the ciphertext, and the decrypted message. 
 
 2 Asymmetric Encryption 
+
 Asymmetric encryption  will first generate a 2048-bit asymmetric key pair. Next, it will encrypt a message using the public key. Then it will decrypt the message using the private key. Lastly, it will show the key that was used, the input message, the ciphertext, and the decrypted message.
 
 # Requirements 
-Install dependencies 
+Install dependencies,
 pip install pycryptodome
 
